@@ -41,6 +41,15 @@ const itchGames = [
     link: "https://nelsss.itch.io/benang-merah",
     tags: ["Visual Novel", "RenPy", "crime"],
   },
+  {
+    title: "Monkey's Circus",
+    description:
+      "Di tengah gemerlap dunia sirkus yang penuh lampu dan tenda warna-warni, hiduplah seekor monyet pemula bernama Tino. Tino adalah monyet sederhana yang menyimpan mimpi besar untuk bisa tampil di atas panggung dan membuat penonton tersenyum. Tanpa sengaja, ia menemukan pengumuman perekrutan pemain sirkus dan memberanikan diri untuk mencoba, meski hatinya dipenuhi rasa ragu dan takut gagal. Ketika tiba saatnya ia harus tampil sendirian di atas tali dengan sepeda roda satu, akankah Tino mampu menjaga keseimbangan dan meraih kesuksesan pertamanya?",
+    coverImage:
+      "https://img.itch.zone/aW1nLzI1MjQ2NTI5LnBuZw==/original/%2BKvOju.png", // Ganti dengan Link Gambar Cover
+    link: "https://pemulabang.itch.io/monkeyscircus",
+    tags: ["2D", "platformer", "circus"],
+  },
   // Tambahkan game lain di sini...
 ];
 
