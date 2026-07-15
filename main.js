@@ -65,7 +65,7 @@ const itchGames = [
       "Tachibana Takumi, seorang YouTuber yang biasa membuat konten paranormal, datang ke sebuah mansion Jepang modern yang terkenal angker. Ia berniat merekam pengalaman seperti biasa, namun begitu melangkah masuk, kameranya tiba-tiba mati dan pintu keluar tidak lagi bisa dibuka. Mansion itu terasa aneh—terlalu rapi, terlalu sunyi—seolah masih “hidup”, tapi tanpa penghuni.",
     coverImage:
       "https://img.itch.zone/aW1nLzI3ODI0MTcyLnBuZw==/original/TKkLrI.png", // Ganti dengan Link Gambar Cover
-    link: "https://nelsss.itch.io/blind-shot",
+    link: "https://nelsss.itch.io/mysterytroughthelens",
     tags: ["2,5D", "top down", "horror", "mystery", "puzzle"],
   },
   // Tambahkan game lain di sini...
