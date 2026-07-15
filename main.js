@@ -50,6 +50,15 @@ const itchGames = [
     link: "https://pemulabang.itch.io/monkeyscircus",
     tags: ["2D", "platformer", "circus"],
   },
+  {
+    title: "Monkey's Circus",
+    description:
+      "Game ini mengisahkan perjalanan Schwartz, seorang hitman legendaris misterius berpakaian taktis serba hitam pekat yang menyusup untuk menghancurkan jaringan kantor judi online ilegal berskala internasional. Di dalam koridor gedung yang gelap, ia harus melumpuhkan gerombolan musuh yang tampil sangat mencolok dengan setelan jas formal berwarna merah menyala dan topeng khusus penutup identitas. Ketegangan aksi ini semakin seru berkat mekanik manipulasi waktu yang unik: waktu akan bergerak normal ketika pemain aktif berjalan sambil menembak, namun seketika melambat secara ekstrem (slow motion) saat pemain diam di tempat. Fitur ini memberikan ruang taktis bagi pemain untuk membaca situasi dan menghindari lintasan peluru musuh sebelum kembali bergerak maju mengeksekusi lawan.",
+    coverImage:
+      "https://img.itch.zone/aW1nLzI3MzkwODI4LnBuZw==/original/TtduYG.png", // Ganti dengan Link Gambar Cover
+    link: "https://nelsss.itch.io/blind-shot",
+    tags: ["2,5D", "top down", "action", "shooter", "slow motion"],
+  },
   // Tambahkan game lain di sini...
 ];
 
