@@ -1,4 +1,6 @@
 // Hapus semua array const itchGames manual di sini
+const modal = document.getElementById("developmentModal");
+
 function closeModal() {
   modal.style.display = "none";
 }
