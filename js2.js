@@ -1,4 +1,11 @@
 // Hapus semua array const itchGames manual di sini
+function closeModal() {
+  modal.style.display = "none";
+}
+
+window.onload = () => {
+  modal.style.display = "flex";
+};
 
 async function loadPortfolio() {
   const gamesContainer = document.getElementById("games");
