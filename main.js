@@ -68,6 +68,15 @@ const itchGames = [
     link: "https://nelsss.itch.io/mysterytroughthelens",
     tags: ["2,5D", "top down", "horror", "mystery", "puzzle"],
   },
+  {
+    title: "Spell Link",
+    description:
+      "Keserakahan manusia yang memburu prasasti purba demi harta telah mengusik ketenangan alam gaib. Bubo, seorang dukun sakti, harus bergerak cepat mengamankan artefak langka tersebut sebelum kekuatan di dalamnya disalahgunakan. Langkahnya tak mudah karena ia harus berpacu dengan para pemburu liar sekaligus menumbangkan hantu-hantu penunggu yang murka, mulai dari Tuyul, Kuntilanak, hingga Genderuwo raksasa.",
+    coverImage:
+      "https://img.itch.zone/aW1nLzI5NzU4NDU4LnBuZw==/original/YBGzp%2F.png",
+    link: "https://nelsss.itch.io/spell-link",
+    tags: ["2D", "typing"],
+  },
   // Tambahkan game lain di sini...
 ];
 
