@@ -76,6 +76,7 @@ const itchGames = [
       "https://img.itch.zone/aW1nLzI5NzU4NDU4LnBuZw==/original/YBGzp%2F.png",
     link: "https://nelsss.itch.io/spell-link",
     tags: ["2D", "typing"],
+    award: "🥉 Juara 3 IFEST 2026 UNPAD",
   },
   // Tambahkan game lain di sini...
 ];
@@ -93,17 +94,24 @@ function loadPortfolio() {
     const gameCard = document.createElement("article");
     gameCard.classList.add("game-card"); // Tambahkan class untuk CSS
 
+    const awardBadge = game.award
+      ? `<div class="award-badge">${game.award}</div>`
+      : "";
+
     // Mengisi konten HTML menggunakan Template Literals
     gameCard.innerHTML = `
-      <img src="${game.coverImage}" alt="${game.title}" class="game-cover">
+      <div class="game-cover-wrapper">
+        <img src="${game.coverImage}" alt="${game.title}" class="game-cover" onerror="this.onerror=null; this.src='img/default-cover.png'">
+        ${awardBadge}
+      </div>
       <div class="game-info">
         <h3>${game.title}</h3>
-        <p>${game.description}</p> <br>
+        <p>${game.description}</p>
         <div class="tags">
-            <span class="genre-label">Gendre: </span>
+            <span class="genre-label">Genre: </span>
             ${game.tags
               .map((tag) => `<span class="tag">${tag}</span>`)
-              .join(", ")}
+              .join("")}
         </div>
         <a href="${
           game.link
